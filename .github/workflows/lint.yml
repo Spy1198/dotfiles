@@ -1,0 +1,11 @@
+name: lint
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ShellCheck
+        run: shellcheck install.sh sync.sh
+      - name: Dry-run smoke test
+        run: HOME=$(mktemp -d) ./install.sh --configs --dry-run

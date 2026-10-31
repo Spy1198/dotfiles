@@ -1,0 +1,39 @@
+{
+  "logo": {
+    "type": "file",
+    "source": "__HOME__/.config/fastfetch/logo.txt",
+    "color": { "1": "38;2;255;0;160" },
+    "padding": { "left": 2, "right": 4 }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "keys": "38;2;0;240;255",
+      "output": "38;2;208;247;255"
+    }
+  },
+  "modules": [
+    { "type": "custom", "format": "SpyOP" },
+    "separator",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "wm",
+    "theme",
+    "icons",
+    "font",
+    "cursor",
+    "terminal",
+    "cpu",
+    "gpu",
+    "memory",
+    "swap",
+    "disk",
+    "localip",
+    "battery"
+  ]
+}

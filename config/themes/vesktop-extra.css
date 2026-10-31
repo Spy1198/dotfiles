@@ -1,0 +1,13 @@
+[class*="typing_"], [class*="channelBottomBarArea"], [class*="form_"] { background: transparent !important; }
+[class*="form_"]::before, [class*="form_"]::after, [class*="typing_"]::before, [class*="typing_"]::after { background: none !important; box-shadow: none !important; }
+[class*="typingIndicator"], [class*="typing_"] [class*="text_"] { background: transparent !important; color: @TEXT@ !important; }
+[class*="chatContent_"], [class*="chat_"] { background: @BG@ !important; }
+[class*="attachButton"], [class*="attachWrapper"], [class*="buttons_"] { background: transparent !important; }
+[class*="loadingMessages"], [class*="scrollerContent"], [class*="messagesWrapper"], [class*="scrollerInner"], [class*="scroller_"] { background-color: @BG@ !important; }
+[class*="placeholder"], [class*="skeleton"], [class*="Skeleton"], [class*="ghostContainer"] { background-color: @RAISED@ !important; }
+[class*="channelTextArea"] *, [class*="inner_"], [class*="innerDisabled"], [class*="buttons_"] { box-shadow: none !important; }
+[class*="channelTextArea"]::before, [class*="channelTextArea"]::after, [class*="textArea"]::before, [class*="textArea"]::after { display: none !important; }
+:root { --bg-overlay-chat: @BG@ !important; --background-gradient-chat: @BG@ !important; --bg-overlay-1: @SIDE@ !important; --bg-overlay-2: @SIDE@ !important; --bg-overlay-3: @RAISED@ !important; --background-nested-floating: @RAISED@ !important; }
+html, body, #app-mount { background: @BG@ !important; }
+[class*="form_"], [class*="typing_"], [class*="channelBottomBarArea"] { background: @BG@ !important; background-image: none !important; }
+[class*="chatContent"] *::before, [class*="chatContent"] *::after { background-image: none !important; }

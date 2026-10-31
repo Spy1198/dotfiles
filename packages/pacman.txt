@@ -1,0 +1,43 @@
+# Core
+hyprland
+hyprlock
+hypridle
+waybar
+kitty
+alacritty
+rofi
+swaync
+# Utilities
+grim
+slurp
+wl-clipboard
+cliphist
+satty
+cava
+jq
+socat
+brightnessctl
+libnotify
+ydotool
+fastfetch
+figlet
+# Audio / network / bluetooth
+pipewire
+wireplumber
+wiremix
+bluetui
+bluez
+bluez-utils
+networkmanager
+# Theming
+kvantum
+qt6ct
+nwg-look
+papirus-icon-theme
+ttf-jetbrains-mono-nerd
+# Python overlay scripts
+python-gobject
+python-cairo
+gtk4
+gtk4-layer-shell
+xdg-desktop-portal-hyprland

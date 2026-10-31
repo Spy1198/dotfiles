@@ -1,0 +1,31 @@
+[window]
+opacity = 0.92
+padding = { x = 14, y = 10 }
+
+[colors.primary]
+background = "#0d0221"
+foreground = "#d0f7ff"
+
+[colors.selection]
+background = "#ff00a0"
+text = "#0d0221"
+
+[colors.normal]
+black = "#0d0221"
+red = "#ff2a6d"
+green = "#00f0ff"
+yellow = "#ff00a0"
+blue = "#05d9e8"
+magenta = "#ff00a0"
+cyan = "#00f0ff"
+white = "#d0f7ff"
+
+[colors.bright]
+black = "#1a0b3d"
+red = "#ff2a6d"
+green = "#00f0ff"
+yellow = "#ff00a0"
+blue = "#05d9e8"
+magenta = "#ff00a0"
+cyan = "#00f0ff"
+white = "#ffffff"

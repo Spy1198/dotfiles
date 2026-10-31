@@ -1,0 +1,12 @@
+*.bak
+*.bak[0-9]*
+*.pre-cleanup
+*.kvconfig.txt
+config/themes/backup/
+config/themes/.current
+config/hypr/rain-color
+*.log
+*.bak*
+*.pre-cleanup
+__pycache__/
+*.pyc

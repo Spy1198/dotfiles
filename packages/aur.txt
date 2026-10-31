@@ -1,0 +1,6 @@
+# AUR / Chaotic-AUR
+hyprshell
+awww
+kvantum-theme-libadwaita-git
+papirus-folders
+sddm-astronaut-theme
